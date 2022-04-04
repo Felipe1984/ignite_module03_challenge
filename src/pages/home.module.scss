@@ -1,1 +1,58 @@
-// TODO
+.container {
+   max-width: 1120px;
+   padding: 0 7rem;
+
+   header {
+      padding: 4.971rem 0 4.051rem
+   }
+}
+
+.content {
+   & + section {
+      margin-top: 3rem;
+   }
+
+   &:last-child {
+      margin-bottom: 4rem;
+   }
+
+   a {
+
+      display: inline-block;
+
+      p {
+         margin: 0.5rem 0 1.5rem;
+      }
+
+      time + span {
+         margin-left: 1.5rem;
+      }
+   
+      time, span {
+         svg + span {
+            margin-left: 0.5rem;
+         }
+      }
+
+      transition: filter 0.2s;
+
+      &:hover {
+         filter: brightness(0.7);
+      }
+   }
+}
+
+.chargePost {
+   background: transparent;
+   border: none;
+   font-size: 1.125rem;
+   color: var(--highlight);
+   font-weight: 600;
+   margin: 4rem 0 5rem;
+   
+   transition: filter 0.2s;
+
+   &:hover {
+      filter: brightness(0.8);
+   }
+}

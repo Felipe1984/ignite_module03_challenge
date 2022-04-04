@@ -1,1 +1,15 @@
-// TODO
+.headerContainer {
+   display: inline-block;
+   height: 1.60rem;
+}
+
+.headerContent {
+   display: inline-block;
+   height: 1.60rem;
+
+   transition: filter 0.2s;
+
+   &:hover {
+      filter: brightness(0.7);
+   }
+}

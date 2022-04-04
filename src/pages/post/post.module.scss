@@ -1,1 +1,72 @@
-// TODO
+.postContainer {
+   
+   section.postHeader {
+      margin: 0 auto;
+      max-width: 721px;
+      height: 25.59px;
+      padding: 2.5rem 0 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      header {
+         height: 25.59px;
+      }
+   }
+
+   section.postBanner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 25rem;
+
+      img {
+         object-fit: cover;
+      }
+   }
+
+   section.postContent {
+      max-width: 721px;
+      margin: 5rem auto 5rem;
+      text-align: justify;
+
+      a {
+         color: var(--highlight);
+
+         &:hover {
+            filter: brightness(0.7);
+         }
+      }
+
+      span.postData {
+         display: inline-block;
+         margin: 1.5rem 1.5rem 0 0;
+
+         svg {
+            margin-right: 0.5rem;
+         }
+      }
+
+      div {
+         h2 {
+            margin: 4rem 0;
+         }
+
+         div {
+            p + p {
+               margin-top: 2.5rem;
+            }
+
+            li {
+               margin-top: 2.5rem;
+               list-style-position: inside;
+            }
+
+            li:last-child {
+               margin-bottom: 2.5rem;
+            }
+         }
+      }
+   }
+}

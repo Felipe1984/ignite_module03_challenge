@@ -33,32 +33,11 @@ body, input, textarea, select, button {
   font: 400 1.125rem Inter, sans-serif;
 }
 
-h1, h2, h3 {
-  color: var(--heading);
-  font-weight: 700;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2.25rem;
-}
-
-h3 {
-  font-size: 1.75rem;
-}
-
 button {
   cursor: pointer;
 }
 
-span {
-  font-size: 0.875rem;
-}
-
 a {
-  color: var(--highlight);
+  color: inherit;
   text-decoration: none;
 }
